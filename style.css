@@ -1,0 +1,174 @@
+/*start common css*/
+body {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: #888888;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.site-btn {
+    display: inline-block;
+    color: #fff;
+    background-image: linear-gradient(#0388F7, #15BCFC);
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 50px;
+}
+
+
+/*start banner area css*/
+.banner-area {
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+}
+
+.banner-content {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.banner-content h1 {
+    font-size: 70px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.banner-content h1 span {
+    color: #14BAFC;
+}
+
+.banner-content p {
+    margin-bottom: 25px;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+/*start about area css*/
+.about-area {
+    display: flex;
+    padding: 120px 10%;
+    align-items: center;
+    background: url(images/about-bg.jpg) left top no-repeat;
+    background-size: cover;
+}
+
+.about-image {
+    width: 50%;
+    min-width: 50%;
+}
+
+.about-image img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.about-content {
+    padding: 50px 100px;
+    width: 50%;
+}
+
+.about-content h1 {
+    font-size: 50px;
+}
+
+.about-area .site-btn {
+    margin-top: 40px;
+}
+
+/*start favotite area css*/
+.favorite-food {
+    padding: 80px 10%;
+}
+
+.favorite-contant {
+    display: flex;
+}
+.single-food-item {
+    width: 30%;
+    margin: 0 2%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px #00000026;
+    padding: 20px;
+}
+
+.single-food-item img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.single-food-item h4 {
+    font-size: 24px;
+}
+
+/*start food-gallery css*/
+.food-gallery {
+    padding: 0 10% 80px;
+}
+
+.gallery-line {
+    display: flex;
+}
+
+.gallery-line img {
+    width: 23%;
+    margin: 0 1% 1%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*start footer area css*/
+.footer-area {
+    background: #EBF8FF;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-area h2 {
+    font-size: 38px;
+}
+
+.footer-area h2 span {
+    color: #14BAFC;
+}
